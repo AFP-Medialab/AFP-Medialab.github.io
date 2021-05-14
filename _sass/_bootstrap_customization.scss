@@ -7,6 +7,10 @@
 
 // Variables ===================================================================
 
-$web-font-path: "https://fonts.googleapis.com/css?family=Roboto" !default;
-@import url($web-font-path);
+@import url("http://fonts.googleapis.com/css?family=Roboto");
+
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+}
 
