@@ -13,26 +13,42 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Bootstrap 4 Github Pages
-email: ""
+
+
+# Basic variables
+#==========================================================================================
+title: Verification Plugin Documentation
 description: >- # this means to ignore newlines until "baseurl:"
   A Bootstrap 4 start up project for Jekyll and Github Pages
-#baseurl: "" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-#github_username:  jekyll
+#baseurl: "/en" # the subpath of your site, e.g. /blog
+url: "https://afp-medialab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurlguide: /verificationplugin/guide
 
-repository: "nicolas-van/bootstrap-4-github-pages"
+repository: "AFP-Medialab/AFP-Medialab.github.io"
+
+
+
 
 # Build settings
+#==========================================================================================
 plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+
+
+
+
 # A list of the pages to display in the navigation bar
+#==========================================================================================
 header_pages:
 
+
+
+
+
 # Exclude from processing.
+#==========================================================================================
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
@@ -40,3 +56,104 @@ exclude:
   - Gemfile.lock
   - node_modules
   - update_boostrap.sh
+
+
+# Translations
+#==========================================================================================
+t:
+  en:
+    home:  "Home"
+
+    video: "Video"
+    tools-analysis:  "Analysis"
+    tools-keyframes:  "Keyframes"
+    tools-thumbnails:  "Thumbnails"
+    tools-videorights:  "Video rights"
+
+    image: "Image"
+    tools-metadata:  "Metadata"
+    tools-forensic:  "Forensic"
+    tools-magnifier:  "Magnifier"
+    tools-ocr:  "OCR"
+    tools-checkgif:  "CheckGIF"
+
+    search: "Search"
+    tools-covid:  "Covid-19"
+    tools-twittersearch:  "Twitter search"
+    tools-xnetwork:  "XNetwork"
+
+    data: "Data analysis"
+    tools-twitterSNA:  "Twitter SNA"
+
+
+  es:
+    home:  "Inicio"
+
+    video: "Video"
+    tools-analysis:  "Análisis"
+    tools-keyframes:  "Keyframes"
+    tools-thumbnails:  "Thumbnails"
+    tools-videorights:  "Video rights"
+
+    image: "Image"
+    tools-metadata:  "Metadata"
+    tools-forensic:  "Forensic"
+    tools-magnifier:  "Magnifier"
+    tools-ocr:  "OCR"
+    tools-checkgif:  "CheckGIF"
+
+    search: "Search"
+    tools-covid:  "Covid-19"
+    tools-twittersearch:  "Twitter search"
+    tools-xnetwork:  "XNetwork"
+
+    data: "Data analysis"
+    tools-twitterSNA:  "Twitter SNA"
+
+  fr:
+    home:  "Accueil"
+
+    video: "Video"
+    tools-analysis:  "Analyse"
+    tools-keyframes:  "Keyframes"
+    tools-thumbnails:  "Thumbnails"
+    tools-videorights:  "Video rights"
+
+    image: "Image"
+    tools-metadata:  "Metadata"
+    tools-forensic:  "Forensic"
+    tools-magnifier:  "Magnifier"
+    tools-ocr:  "OCR"
+    tools-checkgif:  "CheckGIF"
+
+    search: "Search"
+    tools-covid:  "Covid-19"
+    tools-twittersearch:  "Twitter search"
+    tools-xnetwork:  "XNetwork"
+
+    data: "Data analysis"
+    tools-twitterSNA:  "Twitter SNA"
+
+  gr:
+    home:  "Σπίτι"
+
+    video: "Video"
+    tools-analysis:  "Ανάλυση"
+    tools-keyframes:  "Keyframes"
+    tools-thumbnails:  "Thumbnails"
+    tools-videorights:  "Video rights"
+
+    image: "Image"
+    tools-metadata:  "Metadata"
+    tools-forensic:  "Forensic"
+    tools-magnifier:  "Magnifier"
+    tools-ocr:  "OCR"
+    tools-checkgif:  "CheckGIF"
+
+    search: "Search"
+    tools-covid:  "Covid-19"
+    tools-twittersearch:  "Twitter search"
+    tools-xnetwork:  "XNetwork"
+
+    data: "Data analysis"
+    tools-twitterSNA:  "Twitter SNA"
