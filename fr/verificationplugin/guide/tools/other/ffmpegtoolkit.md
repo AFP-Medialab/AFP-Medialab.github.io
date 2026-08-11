@@ -6,4 +6,28 @@ urlPage: /tools/other/ffmpegtoolkit
 ---
 
 
-Page en français
+## Informations générales
+
+**FFMPEG Toolkit** fournit une interface basée sur navigateur pour les opérations courantes de traitement vidéo et audio, alimentée par FFmpeg. Il permet aux professionnels de la vérification d'effectuer des extractions d'images, des conversions de format, la suppression audio et d'autres tâches de traitement multimédia sans avoir besoin d'installer FFmpeg localement ni d'utiliser la ligne de commande.
+
+## Comment l'utiliser
+
+Importez un fichier vidéo ou audio local. Sélectionnez l'opération que vous souhaitez effectuer parmi les options disponibles. L'outil traite le fichier dans le navigateur et vous permet de télécharger le résultat.
+
+## Opérations disponibles
+
+- Extraire des images individuelles ou des séquences d'images d'une vidéo
+- Convertir entre des formats vidéo et audio
+- Supprimer l'audio d'un fichier vidéo
+- Rogner une vidéo sur une plage temporelle spécifique
+- Extraire la piste audio comme fichier séparé
+
+## Fonctionnement
+
+L'outil utilise FFmpeg compilé en WebAssembly (WASM), qui s'exécute entièrement dans le navigateur. Aucune donnée vidéo n'est envoyée à un serveur.
+
+## Cas d'usage
+
+- Extraire des images d'une vidéo pour une analyse d'image approfondie
+- Préparer des fichiers multimédias pour les soumettre à d'autres outils de vérification
+- Convertir des formats propriétaires en formats standard pour l'analyse

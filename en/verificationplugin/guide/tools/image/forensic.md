@@ -20,14 +20,15 @@ You can use it either by providing :
  - by clicking right (*using the contextual menu*) on any image on the web (*please note that images encapsulated into some code and not fully available publicly may not work*) or 
  - by using the **local file button** and by uploading in the underlying graphical user interface a local image from your own drive. 
 
+ The results are separated in 4 categories :
+ - Compression 
+ - Traces
+ - Deep learning
+ - Cloning
 
-## How it works
+## Use cases
+- Analyse an image to see if some part of the image presents some signal alteration 
 
+## Important notes
+- Signal alteration can have multiple origin (manual editing, compression, etc.), traces cannot be considered as a proof of inauthenticity 
 
-## Test it
-
-![enter image description here](https://reveal-mklab.iti.gr/reveal/imgs/example0_big.jpg)
-
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/de862rAPne4?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -12,13 +12,20 @@ urlPage: /tools/data/sna
 
 ## How to use it
 
-Use the recording controls to capture data from a social media source (configure the target in the settings menu or the X Search tool). Once data has been collected, open the SNA tool to visualise the network.
+Use the recording controls to capture data from a social media source (configure the target in the settings menu or the X Search tool). Once data has been collected, open the SNA tool to visualise the network. 
+
+**Important** make you sure you have refreshed the page you want to retrieve after launching the recording.
 
 You can also upload previously collected data for analysis.
 
 ## How it works
+The tool first scrap the website to retrieve tweets or tik tok in collection easy to analyse. 
 
-The tool builds a graph where nodes represent accounts and edges represent interactions (retweets, replies, mentions). Network metrics such as centrality, clustering, and community detection are computed to highlight influential actors and structural patterns. Advanced sub-utilities including CoorTweet and D3LTA are used to analyse semantic networks, map amplification trends, and discover coordinated inauthentic behaviour (CIB) across platform feeds.
+Then it builds metrics such as temporal repartition, account activity, coordinated behavior, mentions, hashtag, word cloud and semantic similarity.
+
+You can add an old collection stored in your local files to an existing one in the plugin. 
+
+Note that the collection are stored in the index DB of your navigator, if you want to keep a collection for a long time please make sure to download it.
 
 ## Use cases
 
@@ -27,7 +34,3 @@ The tool builds a graph where nodes represent accounts and edges represent inter
 - Mapping the structure of an information operation
 - Analysing how a piece of content spreads through a network over time
 
-## Related tools
-
-- [Twitter SNA](twittersna) — Twitter-specific SNA with direct API capture
-- [CSV SNA](csvsna) — SNA from exported CSV datasets

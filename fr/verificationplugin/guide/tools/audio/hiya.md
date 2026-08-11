@@ -8,7 +8,7 @@ urlPage: /tools/audio/hiya
 
 ## Informations générales
 
-**Hiya** est un outil d'analyse audio permettant de détecter les discours synthétiques ou générés par IA, intégré à la suite suite à l'acquisition par Hiya de la startup spécialisée dans la voix par IA Loccus. À mesure que les technologies de clonage vocal et de synthèse vocale par IA deviennent plus accessibles, les contenus audio synthétiques sont de plus en plus utilisés pour fabriquer des déclarations de personnalités publiques ou répandre de la désinformation via de faux enregistrements vocaux.
+**Hiya** est un outil d'analyse audio permettant de détecter les discours synthétiques ou générés par IA, intégré à la suite à l'acquisition par Hiya de la startup spécialisée dans la voix par IA Loccus. À mesure que les technologies de clonage vocal et de synthèse vocale par IA deviennent plus accessibles, les contenus audio synthétiques sont de plus en plus utilisés pour fabriquer des déclarations de personnalités publiques ou répandre de la désinformation via de faux enregistrements vocaux.
 
 ## Comment l'utiliser
 

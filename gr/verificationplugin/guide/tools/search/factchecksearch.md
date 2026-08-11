@@ -1,8 +1,8 @@
 ---
 layout: page
-title:  Fact Check Semantic Search
+title:  Factcheck search
 lang: gr
-urlPage: /tools/search/semanticsearch
+urlPage: /tools/search/factchecksearch
 ---
 
 

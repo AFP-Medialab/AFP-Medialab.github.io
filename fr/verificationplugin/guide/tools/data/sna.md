@@ -14,20 +14,23 @@ urlPage: /tools/data/sna
 
 Utilisez les contrôles d'enregistrement pour capturer des données depuis une source de réseau social (configurez la cible dans le menu des paramètres ou via l'outil X Search). Une fois les données collectées, ouvrez l'outil SNA pour visualiser le réseau.
 
+**Important** : assurez-vous d'avoir actualisé la page dont vous souhaitez récupérer les données après avoir lancé l'enregistrement.
+
 Vous pouvez également importer des données préalablement collectées pour les analyser.
 
 ## Fonctionnement
 
-L'outil construit un graphe où les nœuds représentent des comptes et les arêtes représentent des interactions (retweets, réponses, mentions). Des métriques réseau telles que la centralité, le regroupement et la détection de communautés sont calculées pour mettre en évidence les acteurs influents et les schémas structurels. Des sous-utilitaires avancés incluant CoorTweet et D3LTA sont utilisés pour analyser les réseaux sémantiques, cartographier les tendances d'amplification et découvrir les comportements inauthentiques coordonnés (CIB) à travers les flux des plateformes.
+L'outil commence par scraper le site web pour récupérer des tweets ou des TikTok sous forme de collections faciles à analyser.
+
+Il calcule ensuite des métriques telles que la répartition temporelle, l'activité des comptes, les comportements coordonnés, les mentions, les hashtags, le nuage de mots et la similarité sémantique.
+
+Vous pouvez ajouter une ancienne collection stockée dans vos fichiers locaux à une collection existante dans le plugin.
+
+Notez que les collections sont stockées dans l'IndexDB de votre navigateur. Si vous souhaitez conserver une collection longtemps, assurez-vous de la télécharger.
 
 ## Cas d'usage
 
 - Identifier les comptes clés qui portent un narratif ou un hashtag
-- Détecter des groupes de comptes qui coordonnent l'amplification de contenus
+- Détecter des groupes de comptes susceptibles de coordonner l'amplification de contenus
 - Cartographier la structure d'une opération d'information
 - Analyser la propagation d'un contenu à travers un réseau dans le temps
-
-## Outils associés
-
-- [Twitter SNA](twittersna) — SNA spécifique à Twitter avec capture directe via API
-- [CSV SNA](csvsna) — SNA à partir de jeux de données CSV exportés

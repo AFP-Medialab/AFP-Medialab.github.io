@@ -1,10 +1,9 @@
 ---
 layout: page
-title:  Fact Check Semantic Search
+title:  Factcheck search
 lang: fr
-urlPage: /tools/search/semanticsearch
+urlPage: /tools/search/factchecksearch
 ---
-
 
 ## Informations générales
 

@@ -8,9 +8,9 @@ urlPage: /tools/video/deepfake
 
 ## Información general
 
-**Deepfake video detection** es un entorno forense experimental desarrollado por ITI CERTH que analiza vídeos para identificar rostros generados o manipulados mediante inteligencia artificial. Los deepfakes utilizan modelos de aprendizaje profundo (típicamente GANs o métodos basados en difusión) para sintetizar o intercambiar rostros en vídeos, produciendo a menudo resultados difíciles de detectar a simple vista.
+**Deepfake video detection** es un entorno forense experimental desarrollado por ITI CERTH que analiza vídeos para identificar rostros manipulados mediante inteligencia artificial. Los deepfakes utilizan modelos de aprendizaje profundo (típicamente GANs o métodos basados en difusión) para sintetizar o intercambiar rostros en vídeos, produciendo a menudo resultados difíciles de detectar a simple vista.
 
-Esta herramienta monitoriza secuencias de vídeo mediante un ensemble de modelos de redes neuronales convolucionales (CNN), incluyendo Xception y EfficientNet-B4, entrenados para reconocer artefactos introducidos por el proceso de síntesis, como inconsistencias en la fusión facial, patrones de parpadeo antinaturales y anomalías en el dominio de frecuencias.
+Esta herramienta monitoriza secuencias de vídeo mediante un ensemble de modelos de redes neuronales convolucionales (CNN), entrenados para reconocer artefactos introducidos por el proceso de síntesis, como inconsistencias en la fusión facial, patrones de parpadeo antinaturales y anomalías en el dominio de frecuencias.
 
 ## Cómo usarlo
 
@@ -26,6 +26,7 @@ El sistema mapea las pistas faciales a lo largo de sub-segmentos del vídeo, ext
 
 ## Notas importantes
 
+- Esta herramienta solo funciona con modificaciones faciales realizadas por IA; no funciona con vídeos generados íntegramente por IA.
 - Una puntuación de confianza alta **no** constituye prueba de manipulación. Combine siempre los resultados con otros métodos de verificación.
 - La herramienta es más eficaz con imágenes faciales de primer plano y bien iluminadas.
 - Una compresión elevada o una resolución baja pueden reducir la precisión de la detección.

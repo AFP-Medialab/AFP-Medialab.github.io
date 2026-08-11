@@ -29,3 +29,4 @@ The tool reads the video file's embedded metadata headers and, for online videos
 - Verifying the claimed origin or date of a video
 - Checking if a video has been re-encoded (which may indicate manipulation)
 - Extracting GPS coordinates to cross-reference with the claimed location
+- Check to resolution of the video, to verify that it is usual width and height (unusual number prove an edit has been made on the original video)

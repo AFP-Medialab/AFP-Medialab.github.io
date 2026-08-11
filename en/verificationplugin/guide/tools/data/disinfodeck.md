@@ -8,19 +8,19 @@ urlPage: /tools/data/disinfodeck
 
 ## General information
 
-**Disinformation Monitoring Dashboard** (DisinfoDeck) provides a real-time monitoring interface for tracking disinformation narratives across social media platforms. It aggregates signals from multiple sources and presents them in a structured dashboard to help fact-checkers and researchers identify emerging false narratives before they go viral.
+**Disinformation Monitoring Dashboard** (DisinfoDeck) provides a real-time monitoring interface for tracking disinformation narratives across RSS feeds. It helps fact-checkers and researchers identify emerging false narratives before they go viral.
+
+A chatbot is wired to every RSS feed, you can use it to launch prompts that analyse the RSS feed and highlight the more problematic content.
 
 ## How to use it
 
-Open the dashboard to view the current monitoring feeds. You can configure the topics, keywords, and sources being tracked via the settings. The dashboard displays trending narratives, network activity, and relevant fact-checks in a unified view.
+Open the dashboard to view the current monitoring feeds. You can configure the topics, keywords, and sources being tracked via the settings for each RSS feed.
 
 ## How it works
 
-The tool continuously monitors configured social media streams and applies clustering and narrative detection algorithms to group related content. It highlights spikes in activity, cross-platform spread, and connections to known disinformation themes.
+The tool continuously monitors configured RSS feed sorted by search engine. The input only filter the feed, and the chatbot is fed with the RSS feed and has its prompt already encoded.
 
 ## Use cases
 
 - Proactive monitoring for emerging false narratives ahead of major events (elections, crises)
 - Identifying disinformation campaigns in their early stages
-- Supporting newsroom situational awareness for verification teams
-- Cross-referencing emerging claims with existing fact-check databases

@@ -14,11 +14,19 @@ urlPage: /tools/data/sna
 
 Utilice los controles de grabación para capturar datos de una fuente de redes sociales (configure el objetivo en el menú de configuración o en la herramienta X Search). Una vez recopilados los datos, abra la herramienta SNA para visualizar la red.
 
+**Importante**: asegúrese de haber actualizado la página que desea recuperar después de iniciar la grabación.
+
 También puede cargar datos previamente recopilados para su análisis.
 
 ## Cómo funciona
 
-La herramienta construye un grafo en el que los nodos representan cuentas y las aristas representan interacciones (retweets, respuestas, menciones). Se calculan métricas de red como la centralidad, el agrupamiento y la detección de comunidades para destacar actores influyentes y patrones estructurales. Sub-utilidades avanzadas como CoorTweet y D3LTA se utilizan para analizar redes semánticas, mapear tendencias de amplificación y descubrir comportamiento inauténtico coordinado (CIB) en los feeds de las plataformas.
+La herramienta primero extrae el sitio web para recuperar tweets o vídeos de TikTok en colecciones fáciles de analizar.
+
+Luego construye métricas como distribución temporal, actividad de cuentas, comportamiento coordinado, menciones, hashtags, nube de palabras y similitud semántica.
+
+Puede agregar una colección antigua almacenada en sus archivos locales a una existente en el plugin.
+
+Tenga en cuenta que las colecciones se almacenan en el IndexDB de su navegador; si desea conservar una colección durante mucho tiempo, asegúrese de descargarla.
 
 ## Casos de uso
 
@@ -26,8 +34,3 @@ La herramienta construye un grafo en el que los nodos representan cuentas y las 
 - Detectar grupos de cuentas que pueden estar coordinando la amplificación de contenidos
 - Mapear la estructura de una operación de información
 - Analizar cómo se difunde un contenido a través de una red a lo largo del tiempo
-
-## Herramientas relacionadas
-
-- [Twitter SNA](twittersna) — SNA específico de Twitter con captura directa mediante API
-- [CSV SNA](csvsna) — SNA a partir de conjuntos de datos CSV exportados
