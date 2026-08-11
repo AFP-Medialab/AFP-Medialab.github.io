@@ -1,0 +1,111 @@
+Verification Plugin: Comprehensive Technical Documentation & Component Repository
+Official Descriptive Name: Fake News Debunker by InVID, WeVerify, and veraAI
+Target Audience: Investigative Journalists, Fact-Checkers, OSINT Researchers, Human Rights Defenders
+1. Executive Summary & Structural Architecture
+The Verification Plugin operates as a modular, browser-based "Swiss army knife" designed to address verification challenges in digital media. Initially established under the European Union's Horizon 2020 InVID Project (2016–2018), the suite was subsequently scaled through the WeVerify Project (2018–2021) and was updated through the veraai.eu Research and Innovation Action (2022–2025) and the DeFacto2 EDMO hub project.
+
+The application's architecture is translation-driven and relies on Tab-Separated Values (.tsv) configuration files stored within centralized localization repositories. These files map interface elements directly to technical functions. This structural mapping ensures modular scaling, allowing experimental AI features to be integrated or modified without disrupting the underlying user interface framework.
+ 
+
+
+
+2. Unified Component & Tool Repository Matrix
+The table below provides a complete inventory of all tools, specialized analyzers, and interactive features defined across the platform layout, spanning active, beta, restricted, and legacy/deprecated assets.
+
+
+Tool Module / Component Name
+Lifecycle Status
+Functional Specification & Core Analytical Mechanism
+ 
+Synthetic Image Detector
+Active / Beta
+Developed under the vera.ai framework. It executes a multi-model fusion ensemble combining 14 separate GPU-accelerated neural networks to inspect visual pattern irregularities, frequency-domain artifacts, and GAN or latent-diffusion generation footprints. It issues a structured four-tier color verdict (Red: AI-Generated, Orange: Uncertain, Green: Non-Detected, Blue: Under Human Review) accompanied by a transparency report highlighting melted-feature anomalies and architectural layout inconsistencies.
+Audio Voice Cloning Detector (Hiya / Loccus)
+Active / Beta
+Integrated into the suite following Hiya\'s acquisition of the specialized voice AI startup Loccus. This forensic tool evaluates raw audio streams to spot synthetic speech attacks and deepfake voice clones. Rather than converting the file to text, the tool passes the voice data through an Ensemble Listening Model to inspect irregularities in tone, acoustic patterns, and prosody signatures, providing a manipulation score within five seconds.
+Deepfake Video Detection
+Restricted Feature
+An experimental forensic environment engineered by ITI CERTH. It monitors video sequences via an ensemble of convolutional neural network (CNN) models (such as Xception and EfficientNet-B4). The system maps facial tracks across video sub-segments to expose face-swapping and facial re-enactment, returning a localized probability timeline charted across discrete chunks of the video file.
+Social Network Analysis (SNA)
+Active
+A relational tracking architecture built to trace the dissemination vectors of malicious narratives. It utilizes advanced sub-utilities like CoorTweet and D3LTA to analyze semantic networks, map amplification trends, and discover coordinated inauthentic behavior (CIB) across platform feeds.
+Assistant
+Active
+An interactive intake dashboard that guides operators through a step-by-step diagnostic questionnaire based on the properties of the media file under evaluation. It automatically matches user criteria to the internal utility best equipped to handle the task, routing the asset directly to tools like Forensics, Metadata, or Keyframes.
+Video Analysis
+Active
+Automates contextual structured scraping on hosting endpoints (such as YouTube and Facebook). It fetches deep source data including exact upload times across time zones, channel verification tags, and historical engagement anomalies. It also extracts comment structures to map source links shared by viewers or spot coordinated bot responses.
+Video Keyframe Fragmentation
+Active
+Breaks down video files (.mp4, .mkv, .avi) or remote URLs (YouTube, Facebook, DailyMotion) into static visual frames using sub-shot segmentation filters. Each extracted keyframe features an integrated multi-engine shortcut to run immediate reverse queries across Google Lens, Bing, Yandex, Baidu, TinEye, and the Database of Known Fakes (DBKF).
+YouTube Thumbnails
+Active
+A rapid sorting alternative that bypasses full video processing. It automatically grabs the four default system-generated preview images directly via the YouTube API. This lets analysts execute quick reverse image queries to detect recycled media before running more time-intensive frame breakdowns.
+Magnifier
+Active
+A high-resolution image inspection lens offering up to 20x magnification on local uploads, web URLs, or cloud-hosted links. It includes quick-action tools to adjust sharpness, contrast, and orientation. Crucially, it provides a mirror-flip function designed to counter bad-actor evasion techniques that modify spatial orientation to dodge automated reverse index matches.
+Metadata Viewer
+Active
+Examines structural metadata profiles across files, exposing embedded EXIF, IPTC, and XMP blocks. It extracts camera hardware signatures, editing software logs, lens configurations, and spatial GPS coordinates to verify historical provenance.
+Image Forensics
+Active
+An advanced suite for uncovering hidden image alterations. It features Error Level Analysis (ELA) to spotlight non-uniform JPEG compression rates that hint at digital splicing. It also applies specialized matrix filters to scan for noise consistency, edge anomalies, and cloned pixel blocks.
+Advanced X Search (X Search / Twitter Search)
+Active / Modified
+Bypasses default frontend algorithm restrictions to construct detailed custom search queries. It allows users to pinpoint exact date windows down to the hour, configure Boolean chains, and isolate specific handles or regional coordinates during breaking-news incidents.
+Geolocalizer
+Active / Beta
+An AI-assisted geolocation estimation tool that parses topographical markers, unique architecture styles, and environmental landmarks when standard metadata is missing. It returns recommended coordinate zones alongside matching visual evidence to help analysts manually confirm locations.
+Video Rights Management
+Active
+Assesses platform licensing guidelines and distribution access parameters for online video URLs. This helps newsrooms quickly evaluate the legal parameters and ownership chains of user-generated videos during active breaking news cycles.
+Chatbot Workspace Helper
+Active
+An internal interactive assistant built directly into the toolkit to answer operational queries, explain forensic metrics, and provide guidance on standard verification methods.
+Legacy Twitter API Connectors
+Deprecated
+Original data connection hooks used to fetch real-time public parameters from Twitter accounts. These were deprecated or rewritten into scraping routines following changes to platform API pricing and access tiers.
+Historical Graph Bridges
+Deprecated
+Early custom search features designed to tap into Facebook\'s legacy Graph Search infrastructure. These were deprecated after Facebook phased out public access to its internal graph query endpoints.
+
+
+
+ 
+3. Global Localization Architecture & Supported Languages
+The plugin relies on a uniform convention-based translation structure. Each component reads string parameters directly from localized .tsv tables, generating the layout across 8 international languages without losing context or command alignment.
+Language Code
+Language Name
+System Deployment Profile
+ 
+en
+English
+Core system reference localization framework.
+fr
+French (Français)
+Fully integrated; maintained by AFP-Medialab.
+es
+Spanish (Español)
+Fully integrated; optimized for global fact-checking networks.
+el
+Greek (Ελληνικά)
+Fully integrated; maintained by CERTH / ITI structures.
+it
+Italian (Italiano)
+Fully integrated across European research nodes.
+ar
+Arabic (العربية)
+Fully integrated; includes automated Right-to-Left (RTL) layout styling.
+de
+German (Deutsch)
+Fully integrated for European fact-checking groups.
+ja
+Japanese (日本語)
+Fully integrated deployment string profile.
+
+ 
+4. Translation Management Pipeline
+To ensure localization files render properly in production environments, developers and localization engineers follow strict asset pipelines:
+TSV Editing Constraints: Translation additions must use precise tab separations. For interior quotation markings, single quote marks (\') are required, as double quotes (\") break the parsing compiler.
+Compilation Rules: Pre-deployment builds use automated scripts (such as localized Jupyter extraction tools) to parse the source .tsv files and compile them into optimized production JSON schemas (e.g., public/locales/[lang]/components/NavItems/tools/Assistant.json).
+Caching Infrastructure: The live browser extension uses a daily cache layer controlled by specific version variables (VITE_TRANSLATION_TAG) to balance server load while delivering updated strings to users worldwide.

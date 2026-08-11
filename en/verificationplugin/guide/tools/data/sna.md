@@ -18,7 +18,7 @@ You can also upload previously collected data for analysis.
 
 ## How it works
 
-The tool builds a graph where nodes represent accounts and edges represent interactions (retweets, replies, mentions). Network metrics such as centrality, clustering, and community detection are computed to highlight influential actors and structural patterns.
+The tool builds a graph where nodes represent accounts and edges represent interactions (retweets, replies, mentions). Network metrics such as centrality, clustering, and community detection are computed to highlight influential actors and structural patterns. Advanced sub-utilities including CoorTweet and D3LTA are used to analyse semantic networks, map amplification trends, and discover coordinated inauthentic behaviour (CIB) across platform feeds.
 
 ## Use cases
 

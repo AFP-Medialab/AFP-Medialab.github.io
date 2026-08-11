@@ -8,7 +8,7 @@ urlPage: /tools/audio/hiya
 
 ## General information
 
-**Hiya** is an audio analysis tool for detecting AI-generated or synthetic speech. As voice cloning and AI text-to-speech technologies become more accessible, synthetic audio is increasingly used to fabricate statements by public figures or spread misinformation through fake voice recordings.
+**Hiya** is an audio analysis tool for detecting AI-generated or synthetic speech, integrated into the suite following Hiya's acquisition of the specialised voice AI startup Loccus. As voice cloning and AI text-to-speech technologies become more accessible, synthetic audio is increasingly used to fabricate statements by public figures or spread misinformation through fake voice recordings.
 
 ## How to use it
 
@@ -16,7 +16,7 @@ Provide an audio or video file URL or upload a local file. The tool will analyse
 
 ## How it works
 
-The tool applies audio deepfake detection models that analyse spectral features, prosody patterns, and codec artifacts to distinguish between natural human speech and AI-synthesised audio.
+Rather than converting audio to text, the tool passes the voice data directly through an Ensemble Listening Model to inspect irregularities in tone, acoustic patterns, and prosody signatures. The tool evaluates raw audio streams to spot synthetic speech attacks and deepfake voice clones, providing a manipulation score within approximately five seconds.
 
 ## Use cases
 

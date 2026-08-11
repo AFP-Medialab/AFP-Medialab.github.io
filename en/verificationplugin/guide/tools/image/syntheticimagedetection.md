@@ -19,7 +19,14 @@ You can use it by providing:
 
 ## How it works
 
-The tool applies machine learning classifiers trained to detect statistical artifacts and patterns characteristic of AI image generators. These include frequency-domain anomalies, facial geometry inconsistencies, and texture patterns specific to generative models.
+The tool applies a multi-model fusion ensemble combining 14 separate GPU-accelerated neural networks to inspect visual pattern irregularities, frequency-domain artifacts, and GAN or latent-diffusion generation footprints. It issues a structured four-tier colour verdict:
+
+- **Red**: AI-Generated
+- **Orange**: Uncertain
+- **Green**: Not Detected
+- **Blue**: Under Human Review
+
+Results are accompanied by a transparency report highlighting melted-feature anomalies and architectural layout inconsistencies.
 
 ## Important notes
 

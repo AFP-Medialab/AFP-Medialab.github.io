@@ -8,9 +8,9 @@ urlPage: /tools/video/deepfake
 
 ## General information
 
-**Deepfake video detection** analyses videos to identify AI-generated or AI-manipulated faces. Deepfakes use deep learning models (typically GANs or diffusion-based methods) to synthesize or swap faces in videos, often producing results that are difficult to detect with the naked eye.
+**Deepfake video detection** is an experimental forensic environment engineered by ITI CERTH that analyses videos to identify AI-generated or AI-manipulated faces. Deepfakes use deep learning models (typically GANs or diffusion-based methods) to synthesize or swap faces in videos, often producing results that are difficult to detect with the naked eye.
 
-This tool applies neural network-based classifiers trained to recognize artifacts introduced by the synthesis process, such as inconsistencies in facial blending, unnatural blinking patterns, or frequency-domain anomalies.
+This tool monitors video sequences via an ensemble of convolutional neural network (CNN) models, including Xception and EfficientNet-B4, trained to recognise artefacts introduced by the synthesis process such as inconsistencies in facial blending, unnatural blinking patterns, and frequency-domain anomalies.
 
 ## How to use it
 
@@ -22,7 +22,7 @@ The tool returns a confidence score indicating the likelihood that faces in the 
 
 ## How it works
 
-The system extracts facial regions from video frames and passes them through a deepfake detection model. Results are aggregated across frames to produce an overall assessment.
+The system maps facial tracks across video sub-segments, extracting facial regions from frames and passing them through the detection ensemble. It exposes face-swapping and facial re-enactment by returning a localised probability timeline charted across discrete chunks of the video file, rather than a single score for the whole video.
 
 ## Important notes
 
