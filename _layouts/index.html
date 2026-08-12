@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign text = site.t[page.lang] %}
-{% assign base = page.lang | append: site.baseurlguide %}
+{% assign base = "/" | append: page.lang | append: site.baseurlguide %}
 
 <div>
     <h1>{{ page.title }}</h1>
