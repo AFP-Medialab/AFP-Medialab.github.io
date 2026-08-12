@@ -1,8 +1,5 @@
 ---
-layout: page
+layout: index
 title: MediaLab
+lang: en
 ---
-
-
-
-<p><a href="en/verificationplugin/guide/">Verification plugin</a></p>
