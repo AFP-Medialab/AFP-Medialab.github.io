@@ -24,7 +24,7 @@ Cargue un archivo de vídeo o audio local. Seleccione la operación que desea re
 
 ## Cómo funciona
 
-La herramienta utiliza FFmpeg compilado en WebAssembly (WASM), que se ejecuta completamente en el navegador. No se sube ningún dato de vídeo a un servidor.
+La herramienta utiliza comandos FFmpeg ejecutados en un servidor, lo que permite un mejor rendimiento que una interfaz FFmpeg basada en navegador.
 
 ## Casos de uso
 

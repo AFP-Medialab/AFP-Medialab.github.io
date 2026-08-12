@@ -24,9 +24,8 @@ The tool applies a multi-model fusion ensemble combining 14 separate GPU-acceler
 - **Red**: AI-Generated
 - **Orange**: Uncertain
 - **Green**: Not Detected
-- **Blue**: Under Human Review
 
-Results are accompanied by a transparency report highlighting melted-feature anomalies and architectural layout inconsistencies.
+Results are accompanied by a transparency report about each model, their limit and the score they gave to the image.
 
 ## Important notes
 

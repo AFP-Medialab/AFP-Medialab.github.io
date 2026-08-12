@@ -18,9 +18,6 @@ Vous pouvez l'utiliser en fournissant :
 
 L'outil identifie alors le contenu écrit, l'affiche, identifie la langue et le traduit via Google Translate.
 
-## Fonctionnement
-
-
 ## Cas d'usage
 
 - Aider à traduire le texte d'une image sans avoir à le recopier manuellement

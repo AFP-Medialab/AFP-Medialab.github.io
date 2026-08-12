@@ -8,7 +8,7 @@ urlPage: /tools/other/ffmpegtoolkit
 
 ## General information
 
-**FFMPEG Toolkit** provides a browser-based interface for common video and audio processing operations powered by FFmpeg. It allows verification professionals to perform frame extraction, format conversion, audio stripping, and other media processing tasks without needing to install FFmpeg locally or use the command line.
+**FFMPEG Toolkit** provides a server-based interface for common video and audio processing operations powered by FFmpeg. It allows verification professionals to perform frame extraction, format conversion, audio stripping, and other media processing tasks without needing to install FFmpeg locally or use the command line.
 
 ## How to use it
 
@@ -24,7 +24,7 @@ Upload a local video or audio file. Select the operation you want to perform fro
 
 ## How it works
 
-The tool uses FFmpeg compiled to WebAssembly (WASM), which runs entirely in the browser. No video data is uploaded to a server.
+The tool uses FFmpeg command built on a server, which allows better perfomance than a browser-based ffmpeg interface.
 
 ## Use cases
 

@@ -88,7 +88,7 @@ t:
     search: "Search"
     tools-twitter:  "X. Search"
     tools-semanticsearch:  "Fact Check Semantic Search"
-    tools-covid:  "Factcheck Search"
+    tools-factchecksearch:  "Factcheck Search"
     tools-xnetwork:  "XNetwork"
     tools-mgt:  "Machine Generated Text"
 
@@ -131,7 +131,7 @@ t:
     search: "Search"
     tools-twitter:  "X. Search"
     tools-semanticsearch:  "Búsqueda semántica"
-    tools-covid:  "Búsqueda Factcheck"
+    tools-factchecksearch:  "Búsqueda Factcheck"
     tools-xnetwork:  "XNetwork"
     tools-mgt:  "Texto generado por máquina"
 
@@ -173,7 +173,7 @@ t:
     search: "Recherche"
     tools-twitter:  "Recherche X."
     tools-semanticsearch:  "Recherche sémantique Factcheck"
-    tools-covid:  "Recherche Factcheck"
+    tools-factchecksearch:  "Recherche Factcheck"
     tools-xnetwork:  "XNetwork"
     tools-mgt:  "Texte généré par machine"
 
@@ -215,7 +215,7 @@ t:
     search: "Αναζήτηση"
     tools-twitter:  "Αναζήτηση X."
     tools-semanticsearch:  "Σημασιολογική αναζήτηση Factcheck"
-    tools-covid:  "Αναζήτηση Factcheck"
+    tools-factchecksearch:  "Αναζήτηση Factcheck"
     tools-xnetwork:  "XNetwork"
     tools-mgt:  "Κείμενο παραγόμενο από μηχανή"
 

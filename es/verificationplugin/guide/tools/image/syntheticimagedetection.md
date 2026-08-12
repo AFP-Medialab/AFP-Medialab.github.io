@@ -24,9 +24,8 @@ La herramienta aplica un ensemble de fusión multimodelo que combina 14 redes ne
 - **Rojo**: Generado por IA
 - **Naranja**: Incierto
 - **Verde**: No detectado
-- **Azul**: En revisión humana
 
-Los resultados van acompañados de un informe de transparencia que destaca las anomalías de características fundidas e inconsistencias en la distribución arquitectónica.
+Los resultados van acompañados de un informe de transparencia sobre cada modelo, sus límites y la puntuación que asignaron a la imagen.
 
 ## Notas importantes
 

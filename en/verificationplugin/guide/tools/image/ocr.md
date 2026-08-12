@@ -17,9 +17,6 @@ You can use it by providing:
 
 The tool will then identify the written content, display it, identify the language and translate it using google translate. 
 
-## How it works
-
-
 ## Use cases
 
 - Help to translate text from an image without having to copy it manually

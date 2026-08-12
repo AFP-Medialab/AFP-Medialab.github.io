@@ -24,7 +24,7 @@ Importez un fichier vidéo ou audio local. Sélectionnez l'opération que vous s
 
 ## Fonctionnement
 
-L'outil utilise FFmpeg compilé en WebAssembly (WASM), qui s'exécute entièrement dans le navigateur. Aucune donnée vidéo n'est envoyée à un serveur.
+L'outil utilise des commandes FFmpeg exécutées sur un serveur, ce qui permet de meilleures performances qu'une interface FFmpeg basée sur navigateur.
 
 ## Cas d'usage
 

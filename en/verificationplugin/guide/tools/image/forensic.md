@@ -8,7 +8,7 @@ urlPage: /tools/image/forensic
 
 ## General information
 
-**Image forensic** analysis aims to detect anomalies and possible forgeries in the image signal. This is a complex tool which involves a mathematical analysis of the signal to detect traces in the image compression, incoherences in frequencies, in pixel distribution, in residual noise. 
+**Image forensic** analysis aims to detect anomalies and possible forgeries in the image signal. This is a complex tool which involves a mathematical analysis of the signal to detect traces in the image compression, incoherences in frequencies, in pixel distribution, in residual noise. It can also detect traces a deeplearning forgeries left by the models. 
 Those traces are not only caused by forgeries. They can also be triggered by demosaicing (the way cameras interpolate pixels to build digital images), by overexposure (too much light in some parts of the image) or by object complex or satured texture such as black or white zones, lattice areas.
 Therefore, forensic analysis should be used with caution. More filters outline some particular zone, more likely the image has undergone a manipulation.
 Nevertheless, this is a powerful tool to reveal forgeries, especially if the original image cannot be retrieved through similarity search. 

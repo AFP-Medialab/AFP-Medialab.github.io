@@ -8,7 +8,7 @@ urlPage: /tools/video/poiforensic
 
 ## General information
 
-**POI (Person of Interest) Forensics** is a tool for identifying and analysing specific individuals across video and image content. It allows investigators to verify that the video of a person of interest selected before is authentic.
+**POI (Person of Interest) Forensics** is a tool for identifying and analysing specific individuals across video content. It allows investigators to verify that the video of a person of interest selected before is authentic.
 
 ## How to use it
 
